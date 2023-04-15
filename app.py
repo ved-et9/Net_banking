@@ -25,9 +25,15 @@ def menu ():
                 fname=input("ENTER YOUR FIRST NAME: ").capitalize()
                 lname=input("ENTER YOUR LAST NAME: ").capitalize()
                 email=input("ENTER YOUR Valid Email id: ").capitalize()
-                mobile_no=int(input("ENTER YOUR LAST NAME: "))
-               
+                mobile_no=int(input("ENTER YOUR Mobile no.: "))
+                #tm=d.countDigit(mobile_no)
+                #if tm!=10:
+                    #print("enetr valid mobile no")
                 adhaar=int(input("ENTER YOUR adhaar_no.: "))
+               
+                #te=d.countDigit(adhaar)
+                #if tm!=10:
+                  #  print("enetr valid adhaar")
                 otp=d.verify_email(email)
                 if otp!=1:
                     print("invalid otp")

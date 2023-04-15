@@ -1,2 +1,1 @@
-
-    cdet=(adhaar,account_no,passw,fname,lname)
+"Wallte Balance is: ",bitcoin,"\n\n\n")
